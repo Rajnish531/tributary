@@ -1,1 +1,2 @@
 # tributary
+Backend foundation for Passage's sensor streaming framework. This codebase contains a Carafe server which records information to a Redis data set, and uncovered two endpoints. The/record endpoint is occasionally called by implanted sensors inside a vehicle to present information on the data set. The information is then recovered by a client confronting portable application utilizing the/gather endpoint.
